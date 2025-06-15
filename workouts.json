@@ -38,7 +38,7 @@
   },
   {
     "id": "20250615-151440942",
-    "titre": "Haut du Corps",
+    "titre": "Pectoraux, Bras et Épaules",
     "date": "2025-06-15",
     "exercices": [
       {
@@ -46,12 +46,6 @@
         "series": 4,
         "reps": 15,
         "poids": 30.0
-      },
-      {
-        "nom": "Tirage poulie haute",
-        "series": 4,
-        "reps": 12,
-        "poids": 50.0
       },
       {
         "nom": "Curl Biceps",
@@ -70,6 +64,12 @@
         "series": 4,
         "reps": 15,
         "poids": 6.0
+      },
+      {
+        "nom": "Dips",
+        "series": 3,
+        "reps": 15,
+        "poids": 0
       }
     ]
   }

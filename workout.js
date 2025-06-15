@@ -13,7 +13,7 @@ fetch('workouts.json')
         const seance = findedWorkout;
         const workoutDiv = document.getElementById('workout-div');
         const card = document.createElement('div');
-        card.innerHTML = `<div class="card shadow rounded-4 p-4 mb-5" style="max-width: 600px; margin: auto;">
+        card.innerHTML = `<div class="card shadow rounded-4 p-4 mb-4" style="max-width: 600px; margin: auto;">
                         <h2 class="card-title mb-3 fw-bold text-primary">${seance.titre}</h2>
                         <p class="text-muted mb-4"><em>Date :</em> ${seance.date}</p>
 

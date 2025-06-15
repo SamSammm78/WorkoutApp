@@ -8,13 +8,17 @@ fetch('workouts.json')
 
         // Creer un element div pour chaque workout
         const card = document.createElement('div');
-        card.innerHTML =    `<div class="col-md-4 mb-4 shadow-sm card rounded-3 mb-4" style="max-width: 350px; transition: transform 0.2s ease;">
-                            <div class="card-body">
-                            <h5 class="card-title fw-bold">${workout.titre}</h5>
-                            <p class="card-text text-muted"><em>Date :</em> ${workout.date}</p>
-                            <a href="workout.html?id=${workout.id}" class="btn btn-primary">Voir la séance</a>
+        card.innerHTML =    `<div class="col">
+                            <div class="card shadow-sm rounded-3 h-100" style="max-width: 350px; transition: transform 0.2s ease;">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <h5 class="card-title fw-bold">${workout.titre}</h5>
+                                    <p class="card-text text-muted"><em>Date :</em> ${workout.date}</p>
+                                </div>
+                                <a href="workout.html?id=${workout.id}" class="btn btn-primary mt-3">Voir la séance</a>
+                                </div>
                             </div>
-                            </div>` 
+                            </div>` ;
         workoutDiv.appendChild(card);
     });
 })
