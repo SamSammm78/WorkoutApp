@@ -8,7 +8,7 @@ fetch('workouts.json')
 
         // Creer un element div pour chaque workout
         const card = document.createElement('div');
-        card.innerHTML =    `<div class="col">
+        card.innerHTML =    `<div class="col m-2">
                             <div class="card shadow-sm rounded-3 h-100" style="max-width: 350px; transition: transform 0.2s ease;">
                                 <div class="card-body d-flex flex-column justify-content-between">
                                 <div>
