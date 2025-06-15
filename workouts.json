@@ -1,0 +1,76 @@
+[
+  {
+    "id": "20250616-001",
+    "titre": "Jambes, Dos et Abdo",
+    "date": "2025-06-16",
+    "exercices": [
+      {
+        "nom": "Squat",
+        "series": 4,
+        "reps": 8,
+        "poids": 50
+      },
+      {
+        "nom":"Squat sauté",
+        "series": 4,
+        "reps": 20,
+        "poids": 0
+      },
+      {
+        "nom": "Tirage poulie haute",
+        "series": 4,
+        "reps": 10,
+        "poids": 50
+      },
+      {
+        "nom": "Crunch",
+        "series": 4,
+        "reps": 20,
+        "poids": 0
+      },
+      {
+        "nom": "Traction",
+        "series": 3,
+        "reps": 7,
+        "poids": 0
+      }
+    ]
+  },
+  {
+    "id": "20250615-151440942",
+    "titre": "Haut du Corps",
+    "date": "2025-06-15",
+    "exercices": [
+      {
+        "nom": "Développé couché",
+        "series": 4,
+        "reps": 15,
+        "poids": 30.0
+      },
+      {
+        "nom": "Tirage poulie haute",
+        "series": 4,
+        "reps": 12,
+        "poids": 50.0
+      },
+      {
+        "nom": "Curl Biceps",
+        "series": 4,
+        "reps": 15,
+        "poids": 6.0
+      },
+      {
+        "nom": "Kickback Triceps",
+        "series": 4,
+        "reps": 15,
+        "poids": 6.0
+      }, 
+      {
+        "nom": "Élévations latérales",
+        "series": 4,
+        "reps": 15,
+        "poids": 6.0
+      }
+    ]
+  }
+]
